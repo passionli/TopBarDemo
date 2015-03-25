@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="container"
+            android:textColor="#FF000000"
+            android:textSize="35sp" />
+    </FrameLayout>
+
+    <com.google.android.topbardemo.TopBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="#FF18B4ED"
+        custom:leftBackground="@drawable/btn_selector"
+        custom:leftColor="#FFFFFFFF"
+        custom:leftSize="18sp"
+        custom:leftText="Left"
+        custom:rightBackground="@drawable/btn_selector"
+        custom:rightColor="#FFFFFFFF"
+        custom:rightSize="18sp"
+        custom:rightText="Right"
+        custom:titleColor="#FFFFFFFF"
+        custom:titleSize="20sp"
+        custom:titleText="Middle"></com.google.android.topbardemo.TopBar>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="toolbarStyle">@style/AppThemeToolbar</item>
+    </style>
+
+    <style name="AppThemeToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+    </style>
+
+</resources>
